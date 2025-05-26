@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+font-family: Lato;
+    scroll-behavior: smooth;
+}
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+header{
+    width: 100%;
+    height: 180px;
+    color: white;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    filter: grayscale(50%);
+    transition: filter 0.3s ease;
+}
+img:hover{
+    filter: grayscale(0%);
+}
+body{
+    background: linear-gradient(45deg, red, black, white);
+    background-size: 300% 300%;
+    animation: gradient 6s infinite;
+}
+@keyframes gradient{
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+#ol{
+gap: 30px;
+    display: flex;
+    margin-left: 500px;
+    list-style: none;
+}
+#ul{
+gap: 30px;
+    display: flex;
+    margin-left: 90px;
+    margin-top: 90px;
+    list-style: none;
+}
+#logo{
+    margin-left: 200px;
+    margin-top: 20px;
+    animation: spin 1s ;
+}
+@keyframes spin{
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+#hiring-button{
+    margin-left: 200px;
+    color: white;
+    background-color: red;
+    height: 40px;
+    font-size: 15px;
+font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+}
+#button-next{
+      color: white;
+    background-color: red;
+    height: 40px;
+    font-size: 15px;
+font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    width: 130px;
+    margin-top: 20px;
+}
+#me-detail{
+    height: 480px;
+    width: 100%;
+    display: flex;
+    color: white;
+}
+#first-son{
+    height: 480px;
+    width: 50%;
+}
+#second-son{
+    height: 480px;
+    width: 50%;
+display: flex;
+}
+#identity{
+    margin-top: 100px;
+}
+#my-logo{
+    margin-left: 600px;
+}
+.name{
+    font-size: 30px;
+    margin-left: 170px;
+}
+#greetings{
+    margin-left: 250px;
+}
+#my-degree{
+    margin-left: 80px;
+    margin-top: 10px;
+    background: linear-gradient(to right, red, blue);
+    background-clip: text;
+    color: transparent;
+}
+.second-degree{
+    color: red;
+}
+#social-media{
+    height: auto;
+    width: auto;
+    margin-left: 260px;
+margin-top: 20px;
+}
+#all-media{
+        height: auto;
+    width: auto;
+    margin-left: 640px;
+margin-top: 20px;
+}
+#button{
+    height: 40px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 160px;
+}
+#languages{
+    height: 200px;
+    width: 100%;
+    gap: 10px;
+    margin: auto;
+    display: flex;
+}
+#second-button{
+        height: 40px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.me{
+    height: auto;
+    width: auto;
+    display: flex;
+    color: white;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.lang{
+        height: 250px;
+    width: 400px;
+    background-color: rgb(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(10px);
+    border-radius: 9px;
+    margin: auto;
+    filter: blur(10px);
+}
+.lang:hover{
+    filter: blur(0px);
+}
+#done{
+    height: 120px;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 20px;
+    display: flex;
+}
+#first-web{
+    height: 350px;
+    width: 100%;
+gap: 30px;
+    display: flex;
+}
+#second-web{
+     height: 350px;
+    width: 100%;
+    display: flex;
+    gap: 30px;
+}
+#career{
+    height: 120px;
+    width: 200px;
+    font-size: 20px;
+ background-color: hwb(0 11% 89%);
+    font-weight: bold;
+    color: white;
+}
+#me-image{
+    margin-left: 170px;
+    animation-name: slideLeft;
+animation-duration: 3s;
+}
+@keyframes slideLeft{
+    from{transform: translate(100px);}
+}
+#services{
+    height: 700px;
+    width: 100%;
+    margin-top: 100px;
+}
+#website{
+    height: 300px;
+    width: 400px;
+    margin: auto;
+}
+#my-portifolio{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+#first-section{
+    height: 300px;
+    width: 100%;
+    color: white;
+ gap: 30px;
+    display: flex;
+}
+#my-image{
+    height: auto;
+    width: auto;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+#sons{
+    height: 250px;
+    width: 400px;
+    background-color: rgb(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(10px);
+    border-radius: 9px;
+    margin: auto;
+}
+#my-words{
+    color: white;
+}
+#my-text{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+#about-me{
+        height: 700px;
+    width: 100%;
+display: flex;
+}
+#sons:hover{
+    box-shadow: 12px 12px 12px rgba(0, 0, 0), -10px -10px 10px black;
+    cursor: pointer;
+}
+#serv{
+    color: white;
+    text-align: center;
+}
+#this-text{
+color: white;
+text-align: center;
+animation: spin 1s;
+}
+#portifolio{
+    height: 100vh;
+    width: 100%;
+}
+#contact{
+    height: 50vh;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+input{
+    border: none;
+color: white;
+}
+#block-one{
+  display: flex;
+  height: 50vh;
+  width: 50%;
+    flex-direction: column; 
+}
+#block-two{
+    display: flex;
+      height: 50vh;
+  width: 50%;
+    flex-direction: column;
+}
+#submission{
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+border-radius: 10px;
+margin-top: 50px;
+margin-left: 350px;
+}
+footer{
+    height: 300px;
+    width: 100%;
+background-color: rgb(255, 255, 255, 0.1) ;
+}
+#the-owner{
+    height: auto;
+    width: 550px;
+    margin-left: 450px;
+    border-top: 2px solid white;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
