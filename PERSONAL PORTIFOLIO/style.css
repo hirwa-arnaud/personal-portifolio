@@ -347,6 +347,7 @@ animation: spin 1s;
     display: flex;
 }
 input{
+    padding: 12px;
     border: none;
 color: white;
 }
